@@ -1,17 +1,14 @@
-# README
-**Project:**
-Satellite Based Fire Detection Through Machine Learning
-
+# Satellite Based Fire Detection Through Machine Learning (applied to Australia Fires)
 **Code Demo Video:** [Data Focused Python Final Project - Fire Watch Demo](https://www.youtube.com/watch?v=4N_lyimXBEs)
 
 **Capabilities:**
 Visualise all the fires in the target region of the word using data from historical NASA satellites and mark the most impactful fires determined by our risk algorithm.
+![Code flowchart](https://github.com/SergiuIliev/fire-detection/blob/master/readme-screenshots/code_flowchart.png)
 
 **Installation instructions**
-
 0. Install Python version 3.7x
-1. Download _B3\_Group1.zip from Canvas or_ [_Git Repository_](https://github.com/ssaunderss/fire-detection) in the desired install directory (this will place all .py files there)
-2. Download data from the following (500 mb download taking about 30s) from the following URL: 
+1. Clone this repository
+2. Download sample NASA satellite data from the following (500 mb download taking about 30s) from the following URL: 
 [https://mega.nz/#!CV9VmATY!j4qQZ2f\_65dg-Oe3HZm78lk5HvYXRAdghIG5nLw4A2o](https://mega.nz/#!CV9VmATY!j4qQZ2f_65dg-Oe3HZm78lk5HvYXRAdghIG5nLw4A2o)
 3. Unzip the data in the install directory / data (this will create a ./data directory with all raw and pre-processed data)
 3. Install required packages (using conda or pip):
@@ -21,7 +18,7 @@ $ conda install -c conda-forge tqdm
 
 **Running the program**
 
-0. Once the installation instructions are complete and _main.py_ is being run, you will face see a pop up in your interactive python environment (screenshot attached below)
+0. Once the installation instructions are complete and _main.py_ is being run, you will see a pop up in your interactive python environment (screenshot attached below)
 
 ![](https://github.com/SergiuIliev/fire-detection/blob/master/readme-screenshots/1.png)
 
