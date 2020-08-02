@@ -23,7 +23,7 @@ $ conda install -c conda-forge tqdm
 
 0. Once the installation instructions are complete and _main.py_ is being run, you will face see a pop up in your interactive python environment (screenshot attached below)
 
-![](RackMultipart20200802-4-12dpst0_html_8345b8fa198a829a.png)
+![](1.png)
 
 1. At the popup, there are two choices you can make, either use the pre-cleaned data attached or clean fresh data to demonstrate the capability of the code. We recommend just choosing &quot;y&quot; and using the pre-cleaned data to show the end product of this project. If you choose &quot;y&quot; skip ahead to step 4
 
@@ -80,7 +80,5 @@ In another window, the second map will open which shows the historical fire info
 **risk\_forecast\_ML.ipynb**
 
 - Fits a RandomForest model to our cleaned data to try and predict fire risk and fire spread
-- This was one of our extended goals outside the scope of the project, but we still worked hard on it so we decided to include it
-
 
 MIT License, Copyright (c) 2020, Sergiu Iliev, Austin Saunders, Peng Zeng, Yuan Li
